@@ -54,6 +54,10 @@ body {
   font-size: 1rem;
   font-weight: 600;
   color: #fff;
+  transition: all 0.3s ease;
+}
+.navbar .container .nav-links li.nav-item a:hover {
+  color: #ff9b3d;
 }
 .navbar .container .nav-links .active a {
   color: #ff9b3d !important;
