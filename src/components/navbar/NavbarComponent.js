@@ -6,11 +6,12 @@ export default function NavbarComponent() {
         <nav className="navbar">
             <div className="container">
                 <a href="#!" className="brand-logo">
+                    MPC
                     <img src={brandLogo} alt="MPC Computer Parts" />
                 </a>
 
                 <ul className="nav-links">
-                    <li className="nav-item">
+                    <li className="nav-item active">
                         <a href="#!">Home</a>
                     </li>
                     <li className="nav-item">

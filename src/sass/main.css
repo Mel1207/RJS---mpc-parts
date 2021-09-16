@@ -17,4 +17,46 @@ body {
   box-sizing: border-box;
 }
 
+body {
+  background: #fff;
+  width: 100%;
+}
+
+.container {
+  max-width: 1300px;
+  width: 85%;
+  margin: auto;
+}
+
+.navbar {
+  padding: 1em 0;
+  background: #2c2c2c;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .container .brand-logo {
+  font-size: 2.7rem;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: #fdbc80;
+}
+.navbar .container .nav-links {
+  display: flex;
+}
+.navbar .container .nav-links li.nav-item {
+  margin-left: 2rem;
+}
+.navbar .container .nav-links li.nav-item a {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+.navbar .container .nav-links .active a {
+  color: #ff9b3d !important;
+}
+
 /*# sourceMappingURL=main.css.map */
