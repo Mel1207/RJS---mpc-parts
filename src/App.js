@@ -1,13 +1,14 @@
-// import './App.css';
+import React, { Component } from 'react'
 import './sass/main.css'
+import NavbarComponent from './components/navbar/NavbarComponent'
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hey thereasd</h1>
-      
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <NavbarComponent />
+        app body
+      </div>
+    )
+  }
 }
-
-export default App;
