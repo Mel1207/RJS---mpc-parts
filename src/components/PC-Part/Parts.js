@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export default class PcList extends Component {
+export default class Parts extends Component {
     render() {
         return (
             <div>
-                this the pc now
+                <h5>this is the pc part</h5>
             </div>
         )
     }
