@@ -7,13 +7,23 @@ export default class PartsList extends Component {
         parts: partsData
     };
 
+    removeItem = id => {
+        console.log(id);
+    }
+
     render() {
-        console.log(this.state.parts)
+        // console.log(this.state.parts)
+
+        const { parts } = this.state;
+
+        console.log(parts)
 
         return (
-            <div className="container">
-                <h1>this is Parts list container </h1>
-                <Parts />
+            <div className="container container-part">
+                {
+                    parts.map(item => (<Parts key={item.id} item={item} removeItem={this.removeItem}></Parts>))
+                    // .map(item => (<Parts key={item.id} item={item} removeItem={this.removeItem} ></Parts>))
+                }
             </div>
         )
     }
