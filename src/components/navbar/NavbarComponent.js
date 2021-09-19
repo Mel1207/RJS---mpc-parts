@@ -1,5 +1,5 @@
 import React from 'react'
-import brandLogo from '../../img/logo-1.svg'
+import brandLogo from '../navbar/logo-1.svg'
 
 export default function NavbarComponent() {
     return (
