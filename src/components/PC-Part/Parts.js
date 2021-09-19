@@ -8,7 +8,7 @@ export default class Parts extends Component {
         const { removeItem } = this.props
 
         return (
-            <div className="part-item">
+            <div className="card-part-item">
                 <div className="img-container">
                     <img src={img} alt="" />
                 </div>
