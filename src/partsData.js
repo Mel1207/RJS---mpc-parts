@@ -29,5 +29,17 @@ export const partsData = [
         img: "./img/processor.jpg",
         info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam earum vel illo nulla suscipit eveniet possimus accusamus quibusdam, itaque repellendus ex consequatur. Omnis, impedit itaque! Vitae distinctio quaerat temporibus?"
     },
+    {
+        id: 6, 
+        partName: "Case - Aorus Xven Light Case",
+        img: "./img/processor.jpg",
+        info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam earum vel illo nulla suscipit eveniet possimus accusamus quibusdam, itaque repellendus ex consequatur. Omnis, impedit itaque! Vitae distinctio quaerat temporibus?"
+    },
+    {
+        id: 7, 
+        partName: "Case - Aorus Xven Light Case",
+        img: "./img/processor.jpg",
+        info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. A aliquam earum vel illo nulla suscipit eveniet possimus accusamus quibusdam, itaque repellendus ex consequatur. Omnis, impedit itaque! Vitae distinctio quaerat temporibus?"
+    },
     
 ]
