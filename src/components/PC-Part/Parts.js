@@ -1,6 +1,16 @@
 import React, { Component } from 'react'
 
 export default class Parts extends Component {
+    state = {
+        showInfo: false
+    }
+
+    handleShowInfo = () => {
+        this.setState({
+            showInfo: !this.state.showInfo
+        })
+    }
+
     render() {
         // console.log(this.props.item)
 
@@ -15,8 +25,8 @@ export default class Parts extends Component {
 
                     <div className="item-info">
                         <h4>{partName}</h4>
-                        <span className="info-toggle-btn">info</span>
-                        <p>{info}</p>
+                        <span className="info-toggle-btn" onClick={this.handleShowInfo}>info</span>
+                        {this.state.showInfo && <p>{info}</p>}
                     </div>
                 </div>
             </div>
