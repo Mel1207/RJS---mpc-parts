@@ -8,7 +8,13 @@ export default class PartsList extends Component {
     };
 
     removeItem = id => {
-        console.log(id);
+        // console.log(id);
+
+        const { parts } = this.state;
+        const sortedParts = parts.filter(part => part.id !== id)
+        this.setState({
+            parts: sortedParts
+        })
     }
 
     render() {
